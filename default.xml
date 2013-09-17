@@ -32,10 +32,10 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r3" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="development" name="platform_development" remote="vanir" revision="jb43" />
-  <project path="device/lge/e980" name="CyanogenMod/android_device_lge_e980" revision="cm-10.2" />
-  <project path="device/lge/e975" name="CyanogenMod/android_device_lge_e975" revision="cm-10.2" />
-  <project path="device/lge/gproj-common" name="CyanogenMod/android_device_lge_gproj-common" revision="cm-10.2" />
-  <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" revision="cm-10.2" />
+  <project path="device/lge/e980" name="android_device_lge_e980" remote="cm" revision="cm-10.2" />
+  <project path="device/lge/e975" name="android_device_lge_e975" remote="cm" revision="cm-10.2" />
+  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="cm" revision="cm-10.2" />
+  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.2" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="jb43" />
