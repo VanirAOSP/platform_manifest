@@ -9,6 +9,11 @@ case $1 in
         export remoterevision="cm-10.1"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
+    d800|d801|d802|vs980)
+        export remote="vanir"
+        export kernelsource="kernel_lge_msm8974"
+        export remoterevision="jb43"
+    ;;
     e975|e980)
         export kernelsource="lge-kernel-gproj"
     ;;
