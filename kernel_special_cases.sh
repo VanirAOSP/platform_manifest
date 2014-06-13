@@ -25,6 +25,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="Team-Exhibit/android_kernel_samsung_codinalte"
     ;;
+    d2lte)
+       export remote="github"
+       export remoterevision="Deathly-4.4"
+       export kernelsource="Deathly-Experience/deathly_d2_Kernel"
+    ;;
     d710)
         export remote="github"
         export remoterevision="cm-11.0"
