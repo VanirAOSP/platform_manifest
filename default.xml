@@ -31,6 +31,7 @@
            review="legacyxperia.us.to:8080" />
   <default revision="cm-11.0"
           sync-j="12"
+          sync-c="true"
           remote="cm" />
 
 
