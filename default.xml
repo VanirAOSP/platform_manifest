@@ -94,6 +94,8 @@
   <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="kk44" />
+  <project path="device/nvidia/shieldtablet" name="cm-tn8/android_device_nvidia_shieldtablet" remote="github" revision="kk44" />
+  <project path="device/nvidia/wx_na_wf" name="cm-tn8/android_device_nvidia_wx_na_wf" remote="github" revision="kk44" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="kk44" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="kk44" />
