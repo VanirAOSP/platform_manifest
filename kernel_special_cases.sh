@@ -127,4 +127,10 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_nvidia_tn8"
     ;;
+    falcon)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_msm8226"
+    ;;
+
 esac
