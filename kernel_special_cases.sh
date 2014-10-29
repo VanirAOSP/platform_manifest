@@ -5,7 +5,7 @@
 export remote="cm"
 export remoterevision="cm-11.0"
 
-case $1 in 
+case $1 in
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
         export remote="github"
         export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
@@ -132,5 +132,9 @@ case $1 in
         export remoterevision="InSaNiTy"
         export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_msm8226"
     ;;
-
+    bacon)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="MartinRo/kernel_oneplus_msm8974"
+    ;;
 esac
