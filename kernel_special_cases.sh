@@ -132,5 +132,10 @@ case $1 in
         export remoterevision="InSaNiTy"
         export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_msm8226"
     ;;
-
+    bacon)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="MartinRo/kernel_oneplus_msm8974"
+    ;;
+    
 esac
