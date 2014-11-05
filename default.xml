@@ -281,7 +281,7 @@
   <project path="external/giflib" name="android_external_giflib" />
   <project path="external/glide" name="platform/external/glide" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google" name="android_external_google" />
-  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
