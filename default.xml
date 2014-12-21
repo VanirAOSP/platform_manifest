@@ -35,6 +35,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="EXODUS" />
   <project path="system/core" name="system_core" remote="vanir" revision="EXODUS" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="EXODUS" groups="vendor" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="build" name="build" remote="vanir" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
