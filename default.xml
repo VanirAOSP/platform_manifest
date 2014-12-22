@@ -17,6 +17,8 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="https://github.com/" />
+  <remote name="vanir-exodus"
+          fetch="https://github.com/VanirExodus" />
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
@@ -36,7 +38,7 @@
   <project path="system/core" name="system_core" remote="vanir" revision="EXODUS" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="EXODUS" groups="vendor" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
-  <project path="packages/apps/ExodusUpdater" name="VanirExodus/packages_apps_ExodusUpdater" remote="github" revision="EXODUS" /> 
+  <project path="packages/apps/ExodusUpdater" name="VanirExodus/packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" /> 
   <project path="build" name="build" remote="vanir" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
