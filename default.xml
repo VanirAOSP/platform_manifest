@@ -36,7 +36,7 @@
   <project path="system/core" name="system_core" remote="vanir" revision="EXODUS" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="EXODUS" groups="vendor" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
-  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="EXODUS" /> 
+  <project path="packages/apps/ExodusUpdater" name="VanirExodus/packages_apps_ExodusUpdater" remote="github" revision="EXODUS" /> 
   <project path="build" name="build" remote="vanir" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
