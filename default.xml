@@ -58,7 +58,7 @@
 
   <!-- EXODUS projects -->
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
-  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" /> 
+  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" > 
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
