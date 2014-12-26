@@ -19,6 +19,8 @@
           fetch="https://github.com/" />
   <remote name="vanir-exodus"
           fetch="https://github.com/VanirExodus" />
+  <remote name="will"
+          fetch="https://github.com/wSedlacek" />
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
@@ -30,16 +32,34 @@
   <default revision="cm-12.0"
           sync-j="12"
           remote="cm" />
+  
+  <!-- Will's projects -->
+  <project path="art" name="art"  groups="aospL5" remote="will" revision="L5" />
+  <project path="bionic" name="bionic" remote="will" revision="L5" groups="pdk" />
+  <project path="build" name="build" remote="will" revision="EXODUS" groups="pdk" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="will" revision="L5" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="will" revision="L5" groups="pdk" />
+  <project path="external/iputils" name="external_iputils" remote="will" revision="L5" groups="aospL5" />
+  <project path="external/stlport" name="external/stlport" remote="will" revision="L5" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" remote="will" revision="L5" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="will" revision="EXODUS" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="will" revision="L5" />
+  <project path="frameworks/native" name="frameworks_native" remote="will" revision="L5" groups="pdk" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="will" revision="L5" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="will" revision="L5" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="will" revision="L5" />
+  <project path="libcore" name="libcore" remote="will" revision="L5" />
+  <project path="manifest" name="platform_manifest" remote="will" revision="EXODUS" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="will" revision="L5"/>  
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="will" revision="EXODUS" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod" name="prebuilts_gcc_linux-x86_arm_sabermod" remote="will" revision="master" />
+  <project path="system/extras" name="system_extras" remote="will" revision="L5" groups="pdk" />
+  <project path="system/core" name="system_core" remote="will" revision="EXODUS" groups="pdk" />
+  <project path="vendor/vanir" name="vendor_vanir" remote="will" revision="EXODUS" groups="vendor" />
 
   <!-- EXODUS projects -->
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="EXODUS" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="EXODUS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="EXODUS" />
-  <project path="system/core" name="system_core" remote="vanir" revision="EXODUS" groups="pdk" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="EXODUS" groups="vendor" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
-  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" /> 
-  <project path="build" name="build" remote="vanir" revision="EXODUS" groups="pdk">
+  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" > 
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
@@ -47,8 +67,6 @@
 
   <!-- Standard vanir build projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="art" name="art"  groups="aospL5" remote="vanir" revision="L5" />
-  <project path="bionic" name="bionic" remote="vanir" revision="L5" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" revision="L5" />
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" groups="pdk" remote="github" revision="cm-11.0" />
@@ -111,7 +129,6 @@
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="L5" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
@@ -256,7 +273,6 @@
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.2_r1" /> 
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/dropbear" name="android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aospL5" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -304,7 +320,6 @@
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs" />
-  <project path="external/iputils" name="external_iputils" remote="vanir" revision="L5" groups="aospL5" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" />
   <project path="external/jarjar" name="android_external_jarjar" groups="pdk" />
@@ -435,7 +450,6 @@
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/strace" name="android_external_strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -460,16 +474,13 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" revision="L5" />
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" revision="L5" groups="pdk" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="vanir" revision="L5" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
   <project path="frameworks/multidex" name="android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
@@ -483,7 +494,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="L5" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
@@ -497,7 +507,6 @@
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="frameworks_webview" remote="vanir" revision="L5" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="L5" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
@@ -507,7 +516,6 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="L5" groups="pdk" />
   <project path="hardware/nvidia/audio" name="android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="android_hardware_nvidia_tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5" />
   <project path="hardware/qcom/audio-caf/msm8226" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8916" />
@@ -545,7 +553,6 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
-  <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" />
@@ -568,7 +575,6 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5"/>  
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -668,7 +674,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="system/extras" name="system_extras" remote="vanir" revision="L5" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="L5" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
