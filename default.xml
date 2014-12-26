@@ -52,6 +52,7 @@
   <project path="manifest" name="platform_manifest" remote="will" revision="EXODUS" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="will" revision="L5"/>  
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="will" revision="EXODUS" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod" name="prebuilts_gcc_linux-x86_arm_sabermod" remote="will" revision="master" />
   <project path="system/extras" name="system_extras" remote="will" revision="L5" groups="pdk" />
   <project path="system/core" name="system_core" remote="will" revision="EXODUS" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="will" revision="EXODUS" groups="vendor" />
