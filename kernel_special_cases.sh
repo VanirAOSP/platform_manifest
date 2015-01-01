@@ -11,6 +11,11 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_samsung_codinalte"
     ;;
+    comanche)
+        export remote="github"
+        export remoterevision="lollipop"
+        export kernelsource="Motorhead1991/B14CKB1RD_Kernel_D2"
+    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="L5"
