@@ -33,16 +33,17 @@
           remote="cm" />
 
   <!-- EXODUS projects -->
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="EXODUS" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="EXODUS" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="EXODUS" />
+  <project path="manifest" name="platform_manifest" remote="vanir-exodus" revision="EXODUS" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir-exodus" revision="EXODUS" />
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" revision="EXODUS" />  
+  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="EXODUS" />
-  <project path="system/core" name="system_core" remote="vanir" revision="EXODUS" groups="pdk" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="EXODUS" groups="vendor" />
-  <project path="build" name="build" remote="vanir" revision="EXODUS" groups="pdk">
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" />
+  <project path="system/core" name="system_core" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
+  <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="EXODUS" groups="vendor" />
+  <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
@@ -115,7 +116,6 @@
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" />
-  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="L5" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
