@@ -35,6 +35,7 @@
           remote="cm" />
 
   <!-- EXODUS projects -->
+  <project path="build/tools/AnyKernel" name="Koush/AnyKernel" remote="github" revision="master" />
   <project path="manifest" name="platform_manifest" remote="vanir-exodus" revision="EXODUS" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" revision="EXODUS" />  
   <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" />
