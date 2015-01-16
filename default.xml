@@ -692,8 +692,12 @@
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/commotio" name="commotio" remote="commotio" revision="5" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="L5" groups="vendor" />
+  
+  <!-- Theme Engine -->
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
 
-<!-- Additional vendors -->
+  <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-12.0" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-12.0" />
