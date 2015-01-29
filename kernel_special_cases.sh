@@ -65,9 +65,9 @@ case $1 in
         export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
     ;;
     klte*)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_samsung_klte"
+        export remote="github"
+        export remoterevision="aosp5.0"
+        export kernelsource="ktoonsez/KTSGS5"
     ;;
     m8)
         export remote="vanir"
