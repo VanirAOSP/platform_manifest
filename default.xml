@@ -177,7 +177,7 @@
   <project path="device/sony/rhine-common" name="AndroidNoob69/android_device_sony_rhine-common" remote="github" revision="cm-12.0" />
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
-  <project path="device/sony/taoshan" name="olivieer/device_sony_taoshan" remote="github" revision="cm-11.0" />
+  <project path="device/sony/taoshan" name="android_device_sony_taoshan" />
   <project path="device/sony/tsubasa" name="device_sony_tsubasa" device="tsubasa" remote="vanir" revision="L5" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" revision="L5" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
