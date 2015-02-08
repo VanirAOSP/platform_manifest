@@ -162,23 +162,23 @@
   <project path="device/samsung/tuna" name="Ziyann/android_device_samsung_tuna" remote="github" groups="tuna" />
   <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
   <project path="device/sony/amami" name="android_device_sony_amami" />
-  <project path="device/sony/blue-common" name="android_device_sony_blue-common" device="tsubasa" />
+  <project path="device/sony/blue-common" name="android_device_sony_blue-common" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
   <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
-  <project path="device/sony/msm8974-common" name="AndroidNoob69/android_device_sony_msm8974-common" remote="github" revision="cm-12.0" />
+  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" />
-  <project path="device/sony/rhine-common" name="AndroidNoob69/android_device_sony_rhine-common" remote="github" revision="cm-12.0" />
+  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="android_device_sony_taoshan" />
-  <project path="device/sony/tsubasa" name="device_sony_tsubasa" device="tsubasa" remote="vanir" />
+  <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
@@ -536,6 +536,7 @@
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" />
   <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" />
+  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" />
