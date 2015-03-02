@@ -50,9 +50,9 @@ case $1 in
         export kernelsource="AlmightyMegadeth00/kernel_google_msm"
     ;;
     jf*)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_samsung_jf"
+        export remote="github"
+        export remoterevision="aosp5.0"
+        export kernelsource="ktoonsez/KT-SGS4"
     ;;
     klte*)
         export remote="vanir"
