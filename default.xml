@@ -11,7 +11,7 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-5.0.2_r1" />
+          revision="lollipop-mr1-release" />
   <remote name="bitbucket"
           fetch="https://bitbucket.org/" />
   <remote name="cm"
@@ -207,6 +207,7 @@
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" remote="aosp" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" />
   <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" />
@@ -217,10 +218,10 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" />
   <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" remote="aosp" />
   <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" remote="aosp" />
+  <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -355,6 +356,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/llvm" name="external_llvm" remote="vanir" groups="pdk" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/lsof" name="external_lsof" remote="vanir" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aospL5" remote="aosp" />
@@ -384,7 +386,8 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/openssh" name="android_external_openssh" />
+  <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssl" name="external_openssl" remote="vanir" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
@@ -483,7 +486,6 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" />
   <project path="frameworks/support" name="frameworks_support" remote="vanir" />
-  <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="frameworks_webview" remote="vanir" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" />
@@ -578,11 +580,11 @@
 <!--  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" /> -->
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
-  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
+  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" remote="aosp"/>
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" />
- <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
+  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
