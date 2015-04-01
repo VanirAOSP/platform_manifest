@@ -130,7 +130,7 @@
   <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" revision="cm-12.0" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" revision="cm-12.0" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" revision="cm-12.0" />
-  <project path="device/samsung/klte" name="android_device_samsung_klte" revision="cm-12.0" />
+  <project path="device/samsung/klte" name="android_device_samsung_klte" remote="vanir" />
   <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
   <project path="device/samsung/kltedv" name="android_device_samsung_kltedv" revision="cm-12.0" />
   <project path="device/samsung/kltespr" name="android_device_samsung_kltespr" revision="cm-12.0" />
