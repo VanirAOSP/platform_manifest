@@ -59,6 +59,13 @@
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
+<!-- Amazon -->
+  <project path="device/amazon/otterx" name="KFire-Android/android_device_amazon_otterx" remote="github" revision="cm-12.1" />
+  <project path="device/amazon/otter-common" name="KFire-Android/android_device_amazon_otter-common" remote="github" revision="cm-12.1" />
+  <project path="device/amazon/otterx" name="KFire-Android/android_device_amazon_omap4-common" remote="github" revision="cm-12.1" />
+  <project path="kernel/amazon/otter-common" name="KFire-Android/kernel_omap_otter-common" remote="github" revision="cm-12.1" />
+  <project path="vendor/amazon" name="KFire-Android/proprietary_vendor_amazon" remote="github" revision="cm-12.1" />
+<!-- HTC -->
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
   <project path="device/htc/evita" name="android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
@@ -72,6 +79,7 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
   <project path="device/htc/ville" name="android_device_htc_ville" />
+<!-- LGE -->
   <project path="device/lge/d800" name="device_lge_d800" remote="vanir" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />
   <project path="device/lge/d802" name="device_lge_d802" remote="vanir" />
@@ -91,6 +99,7 @@
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
+<!-- Motorola -->
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
   <project path="device/motorola/condor" name="android_device_motorola_condor" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
@@ -99,9 +108,11 @@
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
   <project path="device/motorola/victara" name="android_device_motorola_victara" />
+<!-- Nvidia -->
   <project path="device/nvidia/shieldtablet" name="device_nvidia_shieldtablet" remote="vanir" />
   <project path="device/nvidia/wx_na_do" name="device_nvidia_wx_na_do" remote="vanir" />
   <project path="device/nvidia/wx_na_wf" name="device_nvidia_wx_na_wf" remote="vanir" />
+<!-- Oppo -->
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
@@ -111,9 +122,11 @@
   <project path="device/oppo/find7s" name="android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
+<!-- QCOM -->
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
+<!-- Samsung -->
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
@@ -152,6 +165,7 @@
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
   <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" revision="cm-12.0" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
+<!-- Sony -->
   <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" />
   <project path="device/sony/common" name="android_device_sony_common" />
