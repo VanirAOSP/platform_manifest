@@ -110,7 +110,7 @@
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="vanir" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
