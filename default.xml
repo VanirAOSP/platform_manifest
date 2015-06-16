@@ -116,6 +116,7 @@
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
+  <project path="device/samsung/golden" name="andi34/android_device_samsung_golden" remote="github" revision="lp5.1" />
   <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" revision="cm-12.0" />
   <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
