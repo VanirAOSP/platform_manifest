@@ -158,7 +158,7 @@
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="AndroidNoob69/android_device_sony_huashan" remote="github" />
   <project path="device/sony/mint" name="android_device_sony_mint" />
-  <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
+  <project path="device/sony/msm8960-common" name="Mrcl1450/android_device_sony_msm8960-common" remote="github" />
   <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
@@ -554,7 +554,7 @@
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" />
   <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" revision="cm-12.1" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
+  <project path="hardware/sony/DASH" name="Mrcl1450/android_hardware_sony_DASH" remote="github" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
