@@ -40,6 +40,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir" groups="pdk" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="packages/apps/IndecentXposure" name="packages_apps_IndecentXposure" remote="vanir" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
@@ -231,7 +232,6 @@ Trouble Behind -->
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
@@ -248,7 +248,6 @@ Trouble Behind -->
   <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
-  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
