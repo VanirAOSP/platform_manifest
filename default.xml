@@ -204,6 +204,7 @@
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
+  <project path="device/xiaomi/armani" name="Team-Agni/vanir_armani" remote="github" revision="m6" />
   <!-- Device specific repos -->
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />  
   <project path="external/bson" name="CyanogenMod/android_external_bson" />  
