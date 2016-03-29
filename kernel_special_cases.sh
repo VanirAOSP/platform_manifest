@@ -48,6 +48,9 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_samsung_klte"
     ;;
+    mako)
+        export kernelsource="lge-kernel-mako"
+    ;;
     oneplus2)
         export remote="github"
         export kernelsource="Grarak/android_kernel_oneplus_msm8994"
