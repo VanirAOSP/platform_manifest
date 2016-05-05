@@ -24,9 +24,9 @@ case $1 in
         export kernelsource="CyanogenMod/android_kernel_xiaomi_cancro"
     ;;
     d800|d801|d802|d803|f320|ls980|vs980)
-        export remote="vanir"
+        export remote="github"
         export remoterevision="m6"
-        export kernelsource="kernel_lge_msm8974"
+        export kernelsource="ejjohnson1999/kernel_lge_msm8974"
     ;;
     find5)
         export remote="vanir"
