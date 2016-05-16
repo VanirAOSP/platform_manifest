@@ -124,4 +124,5 @@
   <project path="device/xiaomi/armani" name="device_xiaomi_armani" remote="vanir" />
   <project path="device/xiaomi/cancro" name="device_xiaomi_cancro" remote="vanir" />
   <project path="device/yu/lettuce" name="device_yu_lettuce" remote="vanir" />
+  <project path="device/yu/tomato" name="android_device_yu_lettuce" />
 </manifest>
