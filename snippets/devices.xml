@@ -30,6 +30,7 @@
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
   <project path="device/htc/ville" name="CyanogenMod/android_device_htc_ville" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="vanir" />
+  <project path="device/huawei/kiwi" name="android_device_huawei_kiwi" remote="cm" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="vanir" />
   <project path="device/lge/d800" name="device_lge_d800" remote="vanir" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />
