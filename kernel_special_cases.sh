@@ -15,6 +15,11 @@ case $1 in
         export remote="github"
         export kernelsource="armani-dev/android_kernel_xiaomi_armani"
     ;;
+    athene)
+        export remote="github"
+        export remoterevision="m6"
+        export kernelsource="motoG4-Development/kernel_motorola_msm8952"
+    ;;
     bacon)
         export remote="github"
 	export remoterevision="m6"
