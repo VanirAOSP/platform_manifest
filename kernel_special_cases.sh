@@ -14,7 +14,7 @@ case $1 in
     athene)
         export remote="github"
         export remoterevision="cm-14.1"
-        export kernelsource="boulzordev/android_kernel_motorola_msm8952"
+        export kernelsource="CyanogenMod/android_kernel_motorola_msm8952"
     ;;
     d800|d801|d802|d803|f320|ls980|vs980)
         export remote="vanir"
