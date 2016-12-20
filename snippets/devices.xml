@@ -49,7 +49,7 @@
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
-  <project path="device/motorola/athene" name="rahulsnair/android_device_motorola_athene" remote="github" revision="n71" />
+  <project path="device/motorola/athene" name="CyanogenMod/android_device_motorola_athene" remote="github" revision="cm-14.1" />
   <project path="device/motorola/clark" name="CyanogenMod/android_device_motorola_clark" />
   <project path="device/motorola/condor" name="CyanogenMod/android_device_motorola_condor" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
