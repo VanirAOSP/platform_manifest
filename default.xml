@@ -14,10 +14,10 @@
           review="https://android-review.googlesource.com/"
           revision="refs/tags/android-7.1.1_r6" />
   <remote name="cmold"
-          fetch="https://github.com/CyanogenMod"/>
+          fetch="https://github.com/lineageos"/>
   <remote name="cm"
           fetch="https://github.com/"
-          review="review.cyanogenmod.com" />
+          review="review.lineageos.com" />
   <remote name="github"
           fetch="https://github.com/" />
   <remote name="linaro"
@@ -34,11 +34,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
-  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />j
+  <project path="build/kati" name="lineageos/android_build_kati" groups="pdk,tradefed" />j
   <project path="art" name="art" remote="vanir" />
   <project path="bionic" name="bionic" remote="vanir" groups="pdk" />
   <project path="bootable" name="bootable" groups="pdk" remote="vanir" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="lineageos/android_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-aosp" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_twrp" groups="pdk" remote="vanir" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vanir" />
@@ -139,81 +139,81 @@
 
 <!-- CM -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <project path="dalvik" name="lineageos/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
-  <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
-  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
-  <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
+  <project path="external/ahbottomnavigation" name="lineageos/android_external_ahbottomnavigation" />
+  <project path="external/android-visualizer" name="lineageos/android_external_android-visualizer" />
+  <project path="external/android/support-prebuilt" name="lineageos/external_android_support-prebuilt" revision="master" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
+  <project path="external/ant-wireless/ant_native" name="lineageos/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="lineageos/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="lineageos/android_external_ant-wireless_antradio-library" />
+  <project path="external/bash" name="lineageos/android_external_bash" />
+  <project path="external/brctl" name="lineageos/android_external_brctl" />
   <project path="external/busybox" name="external_busybox" remote="vanir" />
-  <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
-  <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
+  <project path="external/bzip2" name="lineageos/android_external_bzip2" groups="pdk" />
+  <project path="external/cmsdk-api-coverage" name="lineageos/android_external_cmsdk-api-coverage" />
+  <project path="external/connectivity" name="lineageos/android_external_connectivity" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
-  <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" groups="pdk" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
-  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
-  <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
-  <project path="external/google" name="CyanogenMod/android_external_google" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" />
-  <project path="external/htop" name="CyanogenMod/android_external_htop" />
+  <project path="external/e2fsprogs" name="lineageos/android_external_e2fsprogs" groups="pdk" />
+  <project path="external/ebtables" name="lineageos/android_external_ebtables" />
+  <project path="external/elfutils" name="lineageos/android_external_elfutils" groups="pdk" />
+  <project path="external/exfat" name="lineageos/android_external_exfat" />
+  <project path="external/f2fs-tools" name="lineageos/android_external_f2fs-tools" groups="pdk" />
+  <project path="external/ffmpeg" name="lineageos/android_external_ffmpeg" />
+  <project path="external/fsck_msdos" name="lineageos/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/fuse" name="lineageos/android_external_fuse" />
+  <project path="external/gello-build" name="lineageos/android_external_gello_build" />
+  <project path="external/google" name="lineageos/android_external_google" />
+  <project path="external/gson" name="lineageos/android_external_gson" />
+  <project path="external/htop" name="lineageos/android_external_htop" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
+  <project path="external/json-c" name="lineageos/android_external_json-c" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jsr330" name="platform/external/jsr330" groups="pdk" remote="aosp" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
-  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
-  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
+  <project path="external/koush/ion" name="lineageos/ion" />
+  <project path="external/libncurses" name="lineageos/android_external_libncurses" />
+  <project path="external/libnetfilter_conntrack" name="lineageos/android_external_libnetfilter_conntrack" />
+  <project path="external/libnfc-nxp" name="lineageos/android_external_libnfc-nxp" groups="pdk" />
+  <project path="external/libnfnetlink" name="lineageos/android_external_libnfnetlink" />
+  <project path="external/libphonenumbergoogle" name="lineageos/android_external_libphonenumbergoogle" />
   <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="vanir" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
+  <project path="external/libtar" name="lineageos/android_external_libtar" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
-  <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" />
+  <project path="external/libtruezip" name="lineageos/android_external_libtruezip" />
+  <project path="external/lzo" name="lineageos/android_external_lzo" />
+  <project path="external/mksh" name="lineageos/android_external_mksh" groups="pdk" />
+  <project path="external/nano" name="lineageos/android_external_nano" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
-  <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/p7zip" name="CyanogenMod/android_external_p7zip" />
+  <project path="external/ntfs-3g" name="lineageos/android_external_ntfs-3g" />
+  <project path="external/okhttp" name="lineageos/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/openssh" name="lineageos/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/p7zip" name="lineageos/android_external_p7zip" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
+  <project path="external/pigz" name="lineageos/android_external_pigz" />
+  <project path="external/powertop" name="lineageos/android_external_powertop" />
+  <project path="external/protobuf-c" name="lineageos/android_external_protobuf-c" />
+  <project path="external/rsync" name="lineageos/android_external_rsync" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
-  <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
-  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" />
-  <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
-  <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
-  <project path="external/zip" name="CyanogenMod/android_external_zip" />
+  <project path="external/tinyalsa" name="lineageos/android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" name="lineageos/android_external_tinycompress" groups="pdk" />
+  <project path="external/tinyxml2" name="lineageos/android_external_tinyxml2" groups="pdk" />
+  <project path="external/uicommon" name="lineageos/android_external_cyanogen_UICommon" />
+  <project path="external/unrar" name="lineageos/android_external_unrar" />
+  <project path="external/unzip" name="lineageos/android_external_unzip" />
+  <project path="external/vim" name="lineageos/android_external_vim" />
+  <project path="external/yaffs2" name="lineageos/android_external_yaffs2" groups="pdk" />
+  <project path="external/zip" name="lineageos/android_external_zip" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -224,75 +224,75 @@
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
+  <project path="frameworks/opt/hardware" name="lineageos/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/vcard" name="lineageos/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" />
-  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/cyanogen" name="lineageos/android_hardware_cyanogen" />
+  <project path="hardware/libhardware_legacy" name="lineageos/android_hardware_libhardware_legacy" groups="pdk" />
   <include name="snippets/hal_all.xml" />
-  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="hardware/ti/omap4" name="lineageos/android_hardware_ti_omap4" />
+  <project path="hardware/ti/omap4xxx" name="lineageos/android_hardware_ti_omap4xxx" groups="omap4" />
+  <project path="hardware/ti/wlan" name="lineageos/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="lineageos/android_hardware_ti_wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
+  <project path="packages/apps/AudioFX" name="lineageos/android_packages_apps_AudioFX" />
+  <project path="packages/apps/Browser" name="lineageos/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="vanir" />
-  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
+  <project path="packages/apps/Exchange" name="lineageos/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
-  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" />
-  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
+  <project path="packages/apps/FMRadio" name="lineageos/android_packages_apps_FMRadio" />
+  <project path="packages/apps/Gello" name="lineageos/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vanir" />
-  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
+  <project path="packages/apps/Profiles" name="lineageos/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" remote="aosp" />
-  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
-  <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
+  <project path="packages/apps/Screencast" name="lineageos/android_packages_apps_Screencast" />
+  <project path="packages/apps/Snap" name="lineageos/android_packages_apps_Snap" />
+  <project path="packages/apps/Terminal" name="lineageos/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="vanir" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="vanir" />
-  <project path="packages/apps/TV" name="CyanogenMod/android_packages_apps_TV" />
+  <project path="packages/apps/TV" name="lineageos/android_packages_apps_TV" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="packages/providers/CallLogProvider" name="CyanogenMod/android_packages_providers_CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/DataUsageProvider" name="CyanogenMod/android_packages_providers_DataUsageProvider" />
+  <project path="packages/providers/CallLogProvider" name="lineageos/android_packages_providers_CallLogProvider" groups="pdk-fs" />
+  <project path="packages/providers/DataUsageProvider" name="lineageos/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" remote="aosp" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
+  <project path="packages/providers/ThemesProvider" name="lineageos/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" remote="aosp" />
-  <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" />
-  <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
-  <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/WeatherProvider" name="lineageos/android_packages_providers_WeatherProvider" />
+  <project path="packages/screensavers/WebView" name="lineageos/android_packages_screensavers_WebView" groups="pdk-fs" />
+  <project path="packages/services/CMAudioService" name="lineageos/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/LiveLockScreenService" name="lineageos/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/themes/HexoLibre" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" />
-<!--  <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />-->
-<!--  <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />-->
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" />
-  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
+  <project path="packages/services/ThemeManagerService" name="lineageos/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/WeatherService" name="lineageos/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/themes/HexoLibre" name="lineageos/android_packages_themes_HexoLibre" groups="themes" />
+<!--  <project path="packages/wallpapers/Galaxy4" name="lineageos/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />-->
+<!--  <project path="packages/wallpapers/PhotoPhase" name="lineageos/android_packages_wallpapers_PhotoPhase" />-->
+  <project path="prebuilts/cmsdk" name="lineageos/android_prebuilts_cmsdk" clone-depth="1" />
+  <project path="system/keymaster" name="lineageos/android_system_keymaster" groups="pdk" />
+  <project path="system/qcom" name="lineageos/android_system_qcom" groups="qcom" />
   <project path="system/security" name="system_security" groups="pdk" remote="vanir" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
-  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
-  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
+  <project path="vendor/cmsdk" name="lineageos/cm_platform_sdk" />
+  <project path="vendor/qcom/opensource/dpm" name="lineageos/android_vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/time-services" name="lineageos/android_vendor_qcom_opensource_time-services" />
 
 <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/igroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="lineageos/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/igroundWeatherProvider" name="lineageos/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="lineageos/android_packages_apps_YahooWeatherProvider" />
 <!-- END CMSDK SAMPLES -->
 
-<!-- END CYANOGENMOD -->
+<!-- END lineageos -->
 
 <!-- BEGIN AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -314,8 +314,8 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
-  <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/aac" name="lineageos/android_external_aac" groups="pdk" />
+  <project path="external/android-clat" name="lineageos/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -379,7 +379,7 @@
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" />
-  <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" />
+  <project path="external/gptfdisk" name="lineageos/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" remote="aosp" />
@@ -388,9 +388,9 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
-  <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
+  <project path="external/icu" name="lineageos/android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
-  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ipsec-tools" name="lineageos/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/iw" name="platform/external/iw" remote="aosp" />
@@ -399,7 +399,7 @@
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/jemalloc" name="CyanogenMod/android_external_jemalloc" groups="pdk" />
+  <project path="external/jemalloc" name="lineageos/android_external_jemalloc" groups="pdk" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
@@ -530,15 +530,15 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="lineageos/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="CyanogenMod/android_hardware_intel_common_utils" groups="intel" />
+  <project path="hardware/intel/common/libva" name="lineageos/android_hardware_intel_common_libva" groups="intel" />
+  <project path="hardware/intel/common/libwsbm" name="lineageos/android_hardware_intel_common_libwsbm" groups="intel" />
+  <project path="hardware/intel/common/omx-components" name="lineageos/android_hardware_intel_common_omx-components" groups="intel" />
+  <project path="hardware/intel/common/utils" name="lineageos/android_hardware_intel_common_utils" groups="intel" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
+  <project path="hardware/intel/img/psb_headers" name="lineageos/android_hardware_intel_img_psb_headers" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="lineageos/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" remote="aosp" />
@@ -568,20 +568,20 @@
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm,nodefault" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="lineageos/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm,nodefault" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm,nodefault" remote="aosp" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm,nodefault" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="lineageos/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm,nodefault" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin,nodefault" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips,nodefault" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86,nodefault" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="lineageos/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86,nodefault" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="lineageos/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="lineageos/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="lineageos/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
   <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin,nodefault" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" remote="aosp" clone-depth="1" />
   <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed,notdefault" remote="aosp" clone-depth="1" />
@@ -608,7 +608,7 @@
   <project path="system/nativepower" name="platform/system/nativepower" remote="aosp" />
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="vanir" />
-  <project path="system/tools/aidl" name="CyanogenMod/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/tools/aidl" name="lineageos/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
   <project path="system/weaved" name="platform/system/weaved" remote="aosp" />

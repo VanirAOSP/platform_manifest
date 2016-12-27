@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/bt" name="lineageos/android_hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/bt-caf" name="lineageos/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/display-caf/apq8084" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/fm" name="lineageos/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="vanir" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/media-caf/apq8084" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="lineageos/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/wlan-caf" name="lineageos/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
+  <project path="hardware/ril" name="lineageos/android_hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" name="lineageos/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
 </manifest>
