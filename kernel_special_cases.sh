@@ -26,6 +26,10 @@ case $1 in
         export remoterevision="n71"
         export kernelsource="kernel_lge_msm8974"
     ;;
+    kiwi)
+        export remote="github"
+        export kernelsource="mohammadsa9/kiwi2"
+    ;;
     libra)
         export remote="github"
         export remoterevision="RR-7.1"
