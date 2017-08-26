@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's N71 branch, our android-7.1.2 based ROM
+This branch is for Vanir's o8 branch, our android-8.0.0 based ROM
 
 Additional dependencies:
   automake autoconf optipng lzop
@@ -14,11 +14,11 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b n71
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b o8
 
 Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b n7 -g darwin
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b o8 -g darwin
 
 Then to sync up:
 
