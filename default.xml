@@ -157,14 +157,12 @@
   <project path="external/android/support-prebuilt" name="LineageOS/external_android_support-prebuilt" revision="master" />
 <!--<project path="external/bash" name="LineageOS/android_external_bash" />-->
   <project path="external/busybox" name="external_busybox" remote="vanir" />
-<project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
 
   <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="vanir" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" />
-<project path="external/json-c" name="LineageOS/android_external_json-c" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jsr330" name="platform/external/jsr330" groups="pdk" remote="aosp" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
@@ -174,7 +172,6 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/openssh" name="external_openssh" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
@@ -183,9 +180,6 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
-<project path="external/unrar" name="LineageOS/android_external_unrar" />
-<project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
-<project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -196,7 +190,6 @@
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-<project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -205,10 +198,8 @@
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" />
   <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
   <include name="snippets/hal_all.xml" />
-<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="vanir" />
-<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
@@ -226,18 +217,14 @@
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" />
-<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
-<project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" />
   <project path="packages/services/Mms" name="packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-<project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
 <!--  <project path="packages/wallpapers/Galaxy4" name="LineageOS/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />-->
 <!--  <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />-->
   <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="vanir" />
   <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="vanir" />
-<project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
 
 
 <!-- CMSDK SAMPLES -->
