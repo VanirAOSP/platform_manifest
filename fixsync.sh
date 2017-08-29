@@ -1,10 +1,18 @@
 #!/bin/bash -ex
+decomment() {
+  #https://stackoverflow.com/a/43087032
+  sed 's/<!--/\x0<!--/g;s/-->/-->\x0/g' | grep -zv '^<!--' | tr -d '\0'
+}
 pushd `dirname $0`/.. >/dev/null
 if [ ! -d lineagetmp ]; then
   git clone https://github.com/lineageos/android lineagetmp -b lineage-15.0
+  pushd lineagetmp >/dev/null
+  find -type f | grep -v .git | while read F; do cat $F | decomment > $F.tmp; mv $F.tmp $F; done
+  popd >/dev/null
 else
   pushd lineagetmp >/dev/null
   git fetch origin lineage-15.0 && git reset --hard FETCH_HEAD
+  find -type f | grep -v .git | while read F; do cat $F | decomment > $F.tmp; mv $F.tmp $F; done
   popd >/dev/null
 fi
 repo sync -j32 -c -f --force-sync 2>&1 | tee .syncoutput
