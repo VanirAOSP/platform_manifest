@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 decomment() {
   #https://stackoverflow.com/a/43087032
   sed 's/<!--/\x0<!--/g;s/-->/-->\x0/g' | grep -zv '^<!--' | tr -d '\0'
