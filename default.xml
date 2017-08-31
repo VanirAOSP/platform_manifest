@@ -514,11 +514,8 @@
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
-  <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
-<project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp" />
-  
-  
 
   <project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
 <!-- AOSP -->
