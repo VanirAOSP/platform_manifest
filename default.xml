@@ -40,6 +40,10 @@
     <linkfile src="tools" dest="build/tools" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="vanir" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="o8-reset" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="o8-reset" />
 
@@ -60,10 +64,6 @@
   <!-- AOSP Projects -->
    <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
