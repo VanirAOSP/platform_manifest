@@ -90,6 +90,8 @@
   <project path="device/yu/lettuce" name="device_yu_lettuce" remote="vanir" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
 
+  <!-- Lineage specific repos -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" />
 
   <!-- Device specific repos -->
   <project path="external/stlport" name="LineageOS/android_external_stlport" /> 
