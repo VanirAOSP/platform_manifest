@@ -39,6 +39,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
+    <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="o8-reset" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="o8-reset" />
