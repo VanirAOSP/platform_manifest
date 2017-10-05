@@ -11,7 +11,7 @@
   <project path="vendor/sony" name="vendor_sony" remote="vanir" groups="vendor" />
   <project path="vendor/qcom/binaries" name="vendor_qcom_binaries" remote="vanir" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" groups="vendor" >
-    <linkfile src="build" dest="vendor/lineage/build" /> <!-- for soong -->
+    <linkfile src="build" dest="vendor/vanir/build" /> <!-- for soong -->
   </project>
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="vanir" />
 
