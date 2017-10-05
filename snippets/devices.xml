@@ -36,7 +36,6 @@
   <project path="device/lge/g4-common" name="device_lge_g4-common" remote="vanir" />
   <project path="device/lge/g5-common" name="LineageOS/android_device_lge_g5-common" />
   <project path="device/lge/g6-common" name="LineageOS/android_device_lge_g6-common" />
-  <project path="device/lge/h815" name="LineageOS/android_device_lge_h815" />
   <project path="device/lge/h830" name="LineageOS/android_device_lge_h830" device="g5" />
   <project path="device/lge/h850" name="LineageOS/android_device_lge_h850" device="g5" />
   <project path="device/lge/h872" name="LineageOS/android_device_lge_h872" device="g6" />
@@ -51,14 +50,10 @@
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
   <project path="device/motorola/athene" name="device_motorola_athene" remote="vanir" />
-  <project path="device/motorola/clark" name="LineageOS/android_device_motorola_clark" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
-  <project path="device/motorola/lux" name="LineageOS/android_device_motorola_lux" />
   <project path="device/motorola/msm8916-common" name="device_motorola_msm8916-common" remote="vanir" />
   <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="vanir" />
-  <project path="device/motorola/otus" name="LineageOS/android_device_motorola_otus" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
-  <project path="device/motorola/titan" name="LineageOS/android_device_motorola_titan" />
   <project path="device/motorola/victara" name="LineageOS/android_device_motorola_victara" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
   <project path="device/oneplus/cheeseburger" name="LineageOS/android_device_oneplus_cheeseburger" />
@@ -74,7 +69,6 @@
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" />
   <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
-  <project path="device/samsung/kltedv" name="LineageOS/android_device_samsung_kltedv" />
   <project path="device/samsung/kltevzw" name="device_samsung_kltevzw" remote="vanir" />
   <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" groups="device" />
@@ -116,7 +110,6 @@
 
 <!-- ??? in use -->
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
-  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
 </manifest>
 
