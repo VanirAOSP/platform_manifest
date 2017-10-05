@@ -4,11 +4,11 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="gerrit.vanir.co:7070"
-          revision="o8" />
+          revision="o8-reset" />
   <remote name="commotio"
           fetch="https://github.com/DHOMD/"
           review="gerrit.vanir.co:7070"
-          revision="71" />
+          revision="8" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
