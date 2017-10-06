@@ -6,15 +6,10 @@
   <project path="device/google/marlin" name="device_google_marlin" remote="vanir" />
   <project path="device/google/sailfish" name="LineageOS/android_device_google_sailfish" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
-  <project path="device/htc/hiae-common" name="LineageOS/android_device_htc_hiae-common" />
-  <project path="device/htc/hiaeul" name="LineageOS/android_device_htc_hiaeul" />
-  <project path="device/htc/hiaeuhl" name="LineageOS/android_device_htc_hiaeuhl" />
   <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" />
-  <project path="device/htc/m8" name="device_htc_m8" remote="vanir" />
-  <project path="device/htc/m8-common" name="LineageOS/android_device_htc_m8-common" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" />
   <project path="device/htc/msm8974-common" name="LineageOS/android_device_htc_msm8974-common" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
