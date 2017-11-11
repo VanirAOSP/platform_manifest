@@ -85,9 +85,6 @@
   <project path="device/yu/lettuce" name="device_yu_lettuce" remote="vanir" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
 
-  <!-- Lineage specific repos -->
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
-
   <!-- Device specific repos -->
   <project path="external/stlport" name="LineageOS/android_external_stlport" /> 
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" device="kiwi" />
