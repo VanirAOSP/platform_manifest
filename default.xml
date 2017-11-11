@@ -49,6 +49,7 @@
 
  <!-- Snippets -->
   <include name="snippets/devices.xml" />
+  <include name="snippets/lineage.xml" />
   <include name="snippets/vendors.xml" />
 
  <!-- Master ccache-->
